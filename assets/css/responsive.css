@@ -1,0 +1,32 @@
+@media all and (maxwidth:670px) {
+  .box > div {
+    width: 100%;
+/*background-repeat:no repeat*/
+}
+.box {
+flex-direction: column;
+height: 500px;
+}
+.box div > p {
+    margin: 10px 70px 50px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.ajax1 {
+margin-bottom: 235px;
+}
+.box, .btn {
+width: 100%;
+}
+.content {
+/*top: 45px*/
+}
+
+.btn {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 835px;
+    position: relative;
+    top: -135px;
+}
+}
